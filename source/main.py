@@ -1,0 +1,2 @@
+import Esp8266MicroPythonPlayground
+Esp8266MicroPythonPlayground.main()
