@@ -1,9 +1,8 @@
-import os
 import json
 
 
 def run():
-    config_file_path = os.path.normpath("config/wlan.json")
+    config_file_path = "config/wlan.json"
     file_data = {}
     try:
         with open(config_file_path) as file:
